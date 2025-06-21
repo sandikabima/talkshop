@@ -31,3 +31,29 @@ adalah backend e-commerce dengan fitur autentikasi, manajemen produk, dan integr
 -`orderItemId`, `orderId`, `productId`, `quantity`, `price` -->
 
 ![ERD Schema](https://raw.githubusercontent.com/sandikabima/talkshop/main/backend/docs/database-schema.png)
+
+## 🌱 Migrations & Seeders Instructions
+
+### ⚙️ 1. Setup Environment Variables
+
+Buat file `.env` di folder `backend/` dan isi seperti ini:
+
+```env
+# Postgres DB Local
+POSTGRES_DATABASE=talkshopv2
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_HOST=
+DB_DIALECT=postgres
+
+# JWT Secret
+JWT_SECRET=
+REFRESH_SECRET=
+
+# Node Env
+NODE_ENV=development
+
+# Cloudinary (for image upload)
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
