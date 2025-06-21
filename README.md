@@ -12,3 +12,6 @@ adalah backend e-commerce dengan fitur autentikasi, manajemen produk, dan integr
 - Validasi dengan Joi
 - Database: PostgreSQL dengan Sequelize ORM
 
+## 🗃️ Database Schema
+### 1. Users
+
