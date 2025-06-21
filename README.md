@@ -29,3 +29,5 @@ adalah backend e-commerce dengan fitur autentikasi, manajemen produk, dan integr
 -`orderId`, `userId`, `status`, `totalAmount`
 ### 8. OrderItems
 -`orderItemId`, `orderId`, `productId`, `quantity`, `price`
+
+![ERD Schema](./docs/database-schema.png)
