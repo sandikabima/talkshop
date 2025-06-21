@@ -1,5 +1,5 @@
 # TalkShop Backend
-TalkShop adalah backend e-commerce dengan fitur autentikasi, manajemen produk, dan integrasi chatbot.
+adalah backend e-commerce dengan fitur autentikasi, manajemen produk, dan integrasi chatbot.
 
 
 ## 🚀 Fitur Utama
@@ -12,4 +12,3 @@ TalkShop adalah backend e-commerce dengan fitur autentikasi, manajemen produk, d
 - Validasi dengan Joi
 - Database: PostgreSQL dengan Sequelize ORM
 
-    
