@@ -41,9 +41,9 @@ Buat file `.env` di folder `backend/` dan isi seperti ini:
 ```env
 # Postgres DB Local
 POSTGRES_DATABASE=talkshopv2
-POSTGRES_USER=
+POSTGRES_USER= 
 POSTGRES_PASSWORD=
-POSTGRES_HOST=
+POSTGRES_HOST= localhost
 DB_DIALECT=postgres
 
 # JWT Secret
