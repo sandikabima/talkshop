@@ -30,4 +30,4 @@ adalah backend e-commerce dengan fitur autentikasi, manajemen produk, dan integr
 ### 8. OrderItems
 -`orderItemId`, `orderId`, `productId`, `quantity`, `price`
 
-![ERD Schema](./docs/database-schema.png)
+![ERD Schema](https://raw.githubusercontent.com/sandikabima/talkshop/main/backend/docs/database-schema.png)
