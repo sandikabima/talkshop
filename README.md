@@ -13,7 +13,7 @@ adalah backend e-commerce dengan fitur autentikasi, manajemen produk, dan integr
 - Database: PostgreSQL dengan Sequelize ORM
 
 ## 🗃️ Database Schema
-### 1. Users 
+<!-- ### 1. Users 
 - `userId`, `userName`, `email`, `password`, `role`, `refresh_token`
 ### 2. Cegories
 -`categoryId`,`name`
@@ -28,6 +28,6 @@ adalah backend e-commerce dengan fitur autentikasi, manajemen produk, dan integr
 ### 7. Orders
 -`orderId`, `userId`, `status`, `totalAmount`
 ### 8. OrderItems
--`orderItemId`, `orderId`, `productId`, `quantity`, `price`
+-`orderItemId`, `orderId`, `productId`, `quantity`, `price` -->
 
 ![ERD Schema](https://raw.githubusercontent.com/sandikabima/talkshop/main/backend/docs/database-schema.png)
