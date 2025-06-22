@@ -85,9 +85,9 @@ npm install
 npm run dev
 ```
 
-![ERD Schema](https://raw.githubusercontent.com/sandikabima/talkshop/main/backend/docs/database-schema.png)
-![ERD Schema](https://raw.githubusercontent.com/sandikabima/talkshop/main/backend/docs/database-schema.png)
-![ERD Schema](https://raw.githubusercontent.com/sandikabima/talkshop/main/backend/docs/database-schema.png)
-![ERD Schema](https://raw.githubusercontent.com/sandikabima/talkshop/main/backend/docs/database-schema.png)
+![ERD Schema](https://raw.githubusercontent.com/sandikabima/talkshop/main/backend/docs/landing_page.png)
+![ERD Schema](https://raw.githubusercontent.com/sandikabima/talkshop/main/backend/docs/Auth.png)
+![ERD Schema](https://raw.githubusercontent.com/sandikabima/talkshop/main/backend/docs/admin_dashboard.png)
+![ERD Schema](https://raw.githubusercontent.com/sandikabima/talkshop/main/backend/docs/joi.png)
 
 
