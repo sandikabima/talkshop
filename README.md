@@ -24,7 +24,7 @@ adalah backend e-commerce dengan fitur autentikasi, manajemen produk, dan integr
 ### 5.  Carts
 -`carId`, `userId`
 ### 6. CartItems
--`cartItemId`, `cartId`, `productId`, `quantity`
+-`cartItemId`, `cartId`, `productId`, `quantity`    
 ### 7. Orders
 -`orderId`, `userId`, `status`, `totalAmount`
 ### 8. OrderItems
@@ -61,9 +61,9 @@ CLOUDINARY_API_SECRET=
 
 ### 🛠️ 2. Menjalankan Aplikasi (Development)
 buka terminal di folder backend/ & Jalankan :
--npm install
--npm run db:migrate
--npm run db:seed
+- npm install
+- npm run db:migrate
+- npm run db:seed
 
 start server
--npm run dev
+- npm run dev
