@@ -13,27 +13,10 @@ adalah backend e-commerce dengan fitur autentikasi, manajemen produk, dan integr
 - Database: PostgreSQL dengan Sequelize ORM
 
 ## 🗃️ Database Schema
-<!-- ### 1. Users 
-- `userId`, `userName`, `email`, `password`, `role`, `refresh_token`
-### 2. Cegories
--`categoryId`,`name`
-### 3. Products
--`productId`, `name`, `description`, `price`, `imageUrl`, `categoryId`
-### 4. ProductStocks
--`productStockId`, `productId`, `quantity`, `location`
-### 5.  Carts
--`carId`, `userId`
-### 6. CartItems
--`cartItemId`, `cartId`, `productId`, `quantity`    
-### 7. Orders
--`orderId`, `userId`, `status`, `totalAmount`
-### 8. OrderItems
--`orderItemId`, `orderId`, `productId`, `quantity`, `price` -->
 
 ![ERD Schema](https://raw.githubusercontent.com/sandikabima/talkshop/main/backend/docs/database-schema.png)
 
 ## 🌱 Migrations & Seeders Instructions
-
 ### ⚙️ 1. Setup Environment Variables
 
 Buat file `.env` di folder `backend/` dan isi seperti ini:
@@ -67,3 +50,33 @@ buka terminal di folder backend/ & Jalankan :
 
 start server
 - npm run dev
+
+
+# TalkShop Frontend       
+Frontend aplikasi e-commerce dengan React + Vite + Shadcn UI + Redux Toolkit.
+
+## 🚀 Tech Stack
+
+- ⚛️ React + Vite
+- 🧱 Shadcn/UI (Tailwind)
+- 🗂️ Atomic Design Pattern + Component By fiture
+- 🔐 Auth (JWT + Refresh Token)
+- 📦 Redux Toolkit
+- 🌐 Axios + Service Layer
+- 🧪 Form Validation (Joi)
+
+### ⚙️ 1. Setup Environment Variables
+
+Buat file `.env` di folder `frontend/` dan isi seperti ini:
+
+```env
+VITE_API_URL = http://localhost:5000/api/v1
+```
+
+## 🔧 Instalasi & Jalankan
+
+```bash
+cd frontend
+npm install
+npm run dev
+
