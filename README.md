@@ -44,12 +44,16 @@ CLOUDINARY_API_SECRET=
 
 ### 🛠️ 2. Menjalankan Aplikasi (Development)
 buka terminal di folder backend/ & Jalankan :
+
+```bash
 - npm install
 - npm run db:migrate
 - npm run db:seed
 
 start server
 - npm run dev
+```
+
 
 
 # TalkShop Frontend       
@@ -59,7 +63,7 @@ Frontend aplikasi e-commerce dengan React + Vite + Shadcn UI + Redux Toolkit.
 
 - ⚛️ React + Vite
 - 🧱 Shadcn/UI (Tailwind)
-- 🗂️ Atomic Design Pattern + Component By fiture
+- 🗂️ Atomic Design Pattern + Component By features
 - 🔐 Auth (JWT + Refresh Token)
 - 📦 Redux Toolkit
 - 🌐 Axios + Service Layer
@@ -68,7 +72,7 @@ Frontend aplikasi e-commerce dengan React + Vite + Shadcn UI + Redux Toolkit.
 ### ⚙️ 1. Setup Environment Variables
 
 Buat file `.env` di folder `frontend/` dan isi seperti ini:
-
+- Semua request mengarah ke backend:
 ```env
 VITE_API_URL = http://localhost:5000/api/v1
 ```
@@ -79,4 +83,11 @@ VITE_API_URL = http://localhost:5000/api/v1
 cd frontend
 npm install
 npm run dev
+```
+
+![ERD Schema](https://raw.githubusercontent.com/sandikabima/talkshop/main/backend/docs/database-schema.png)
+![ERD Schema](https://raw.githubusercontent.com/sandikabima/talkshop/main/backend/docs/database-schema.png)
+![ERD Schema](https://raw.githubusercontent.com/sandikabima/talkshop/main/backend/docs/database-schema.png)
+![ERD Schema](https://raw.githubusercontent.com/sandikabima/talkshop/main/backend/docs/database-schema.png)
+
 
