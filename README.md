@@ -57,3 +57,13 @@ NODE_ENV=development
 CLOUDINARY_CLOUD_NAME=
 CLOUDINARY_API_KEY=
 CLOUDINARY_API_SECRET=
+```
+
+### 🛠️ 2. Menjalankan Aplikasi (Development)
+buka terminal di folder backend/ & Jalankan :
+-npm install
+-npm run db:migrate
+-npm run db:seed
+
+start server
+-npm run dev
